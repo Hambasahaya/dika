@@ -12,7 +12,7 @@ function App() {
   const [serverStatus, setServerStatus] = useState('checking'); // checking, online, offline
   const fileInputRef = useRef(null);
 
-  const API_URL = import.meta.env.VITE_API_URL || 'https://dikanew-production.up.railway.app';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://web-production-38c0a.up.railway.app';
 
   useEffect(() => {
     // Check server health on mount
